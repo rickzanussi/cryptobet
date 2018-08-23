@@ -1,13 +1,13 @@
 # Topics
 
-##User Interface Requirements
-  ###Run app on a dev server locally for testing/grading (connecting to Rinkeby if required)
-  ###Should be able to visit a URL and interact with the app (can be localhost)
+## User Interface Requirements
+  ### Run app on a dev server locally for testing/grading (connecting to Rinkeby if required)
+  ### Should be able to visit a URL and interact with the app (can be localhost)
 
-  ###The applications should have the following features:
-    ####Display the current account
-    ####Sign transactions using metamask / uPort
-    ####Reflect updates to to the contract state
+  ### The applications should have the following features:
+    #### Display the current account
+    #### Sign transactions using metamask / uPort
+    #### Reflect updates to to the contract state
 
 ##Testing
   ###5 tests (Javascript or Solidity or both) with explanations for each smart contract written (where appropriate)
