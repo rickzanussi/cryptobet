@@ -21,7 +21,7 @@ In future release, more functions will be added to the Main Bet Contract to mana
 ## Pseudo-Random number
 
 The routine to generate deterministic random number are based on the contract address and to the sumNumbers - sum of all the already bought numbers. It is intened that it is not completely random but - IMHO - if somebody crack the algorythm, he also  has to buy a without waiting for another user buy a number. 
-** more deep discussion in https://github.com/rickzanussi/cryptobet/blob/master/avoiding_common_attacks.md  **
+### more deep discussion in https://github.com/rickzanussi/cryptobet/blob/master/avoiding_common_attacks.md  ###
 
 ## Freenumbers system
 
