@@ -40,6 +40,8 @@ All the computation with value passed from outside are made using SafeMath funct
 
 # Pseudo-random numbers
 
+Pseudo-random becuase a full randomo is not possible: all the node have to compute the same "random" number to verify the transaction..
+
 In Cryptobet, the pseuo-random functions are use for
 1) find the position of the range of the winning zone into all the possible numbers
 2) fins the winning number between the number in the winning zone
@@ -48,5 +50,10 @@ In Cryptobet, the pseuo-random functions are use for
 
 1) It is not giving problems becuase it is a simple choice of strating conditions
 2) It is based on the address of the contract and the account  of the last buyer. Can be predetermined but this involved actually BUY the winner number and be the the buyer of the last number free in the winning zone...
-3) This is really 
+3) This is really the tricky part. The number is randomized with as seeds the contract address and the sum of the numbers that are not bought at that time. This is a public variable, so can be retrieved and used to compute the next "random" number to be bought by the function buyNumber. 
+What I think that this is ok but to execute that a player have to compute the next number for every block and immediately call the transaction buyNumber. But  of course it can be done by more than one player: so in case of two o more player try to launch the buyNumber transaction when they know that a precious number will be bought, means that the first transation  will have the number. 
+But, for what we know, the order of transaction in a block is not fixed also if ,probably, the fee payed can have some effect. That means that to insure to have the wanted number in a buyNumber transation, a player have to offer an higher fee. And also with that, the player cannot be sure to really his transation is executed as first, and he cannot be sure that thae bought number will be the winner. 
+So, it is another choice if the hacking game is worth or not. I think that this is something acceptable in this game
+
+
 
