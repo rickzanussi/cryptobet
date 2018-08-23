@@ -24,7 +24,7 @@
   ### The applications should have the following features
   
   #### Display the current account
-         Yes under betStattus
+ Yes under betStattus
   #### Using Metamask
  
  Due to the pure Node implementation of the main application, it was not possible including the MeatMaks signing.
