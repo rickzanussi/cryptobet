@@ -1,7 +1,7 @@
 # Cryptobet is an application to generate, manage and play bets
 
 
-## (if it si useful) Rubric points and explanations
+## (if it is useful) Rubric points and explanations
 https://github.com/rickzanussi/cryptobet/blob/master/explanation_grading_rubric.md
 
 ## There are two contracts: MainBet and GenericBet
