@@ -36,3 +36,17 @@ This is noticed: further version could not implement this function for security 
 ## 6) Integer Overflow and Underflow
 
 All the computation with value passed from outside are made using SafeMath functions
+
+
+# Pseudo-random numbers
+
+In Cryptobet, the pseuo-random functions are use for
+1) find the position of the range of the winning zone into all the possible numbers
+2) fins the winning number between the number in the winning zone
+3) find a number to buy when the buyNumber function is called
+
+
+1) It is not giving problems becuase it is a simple choice of strating conditions
+2) It is based on the address of the contract and the account  of the last buyer. Can be predetermined but this involved actually BUY the winner number and be the the buyer of the last number free in the winning zone...
+3) This is really 
+
