@@ -23,21 +23,22 @@
 
   ### The applications should have the following features
   
-  Display the current account
+  #### Display the current account
          Yes under betStattus
-     Sign transactions using metamask.
-     
-    Due to the pure Node implementation of the main application, it was not possbile include the MeatMaks  signing.
-    So I made another page in HTML/Javascript to show the integration with metamask of oone transaction: buyNumber
+  #### Using Metamask
+ 
+ Due to the pure Node implementation of the main application, it was not possible including the MeatMaks signing.
+    So I made another page in HTML/Javascript to show the integration with metamask of one transaction: buyNumber
     the URL is
     
-    http://18.223.68.224:8080/web3api 
+  http://18.223.68.224:8080/web3api 
  
-    (can be reached also from the /home page under the menu item "Metamask")
+  (can be reached also from the /home page under the menu item "Metamask")
     
-    again please tell if it doesnt work. Usually do it (and I will check it) but some random time not
-     Reflect updates to to the contract state
-     yes, if you buy a number or combien two numbers, and go home again (some seconds to wait), you will see that a new number is bought
+  again please tell if it doesnt work. Usually do it (and I will check it) but some random time not
+    
+  #### Reflect updates to to the contract state
+   yes, if you buy a number or combien two numbers, and go home again (some seconds to wait), you will see that a new number is bought
   
      
 
