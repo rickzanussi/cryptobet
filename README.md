@@ -54,11 +54,12 @@ There are 5 test The contract MainBet.sol is deployed. The contract contains the
 4. the function combineNumbers is called. (to have two number to combine, a new buyNumber function is called and the number boguht by the former test is reused) the assert check is the computation of the combined number is correct and if the combined number is effectively assigned
 5. the function of buyNumber is called in a loop until the bet is finished (because all the numbers in the winning zone are bought). The contract automatically call the endBet function, choose a random number and assign a winner the assert check if the winning number is in the winning zone
 
-##Web application
+## Web application
 
 There a web application to check some functionalities of the contracts. The web application allow to buy numbers and combine numbers. 
-The web application is made completely in Node (i dont have a deep knowledge of javascript) for this reason I couldn’t use neither metamask neither uport 
-### **The web application rely on contracts deployed in Rinkeby]**
+The web application is made completely in Node (i dont have a deep knowledge of javascript) for this reason I couldn’t use metamask in Node. I made a special page to use metamask with one transaction
+
+### **The web application rely on contracts deployed in Rinkeby**
 
 
 
