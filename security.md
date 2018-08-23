@@ -28,7 +28,7 @@ The contract add Ether not relying on the value from the call of the fucntion bu
 
 ## 5) Stucked contract
 
-A new bet cannot be made until the actula bet is in the state "ended=false". But the ended=true (and pause=true) is the first thing executed when a bet is ended.
+A new bet cannot be made until the actual bet is in the state "ended=false". But the ended=true (and pause=true) is the first thing executed when a bet is ended. So, a new bet of the same family can be launched anyway
 
 During buyNumber function somebody can stuck the contract make the transfer of the exceeding vlaur of the bet fails.
 This is noticed: further version could not implement this function for security reason.
