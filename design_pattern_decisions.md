@@ -39,4 +39,4 @@ It is private so nobody can call it to arbitrarly finishing a bet without winner
 
 ## Polymorphism
 
-The function to generate random number could be done with polymorphism. But the feeling is that there is some problem in oslidity with that. My safe choice is not to use polymorphism
+The function to generate random number could be done with polymorphism. But the feeling is that there is some problem in solidity with that. My safe choice is not to use polymorphism
