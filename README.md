@@ -15,6 +15,12 @@ https://github.com/rickzanussi/cryptobet/blob/master/avoiding_common_attacks.md
 ### Rinkeby addresses
 https://github.com/rickzanussi/cryptobet/blob/master/deployed_addresses.txt
 
+### URL application
+
+http://18.223.68.224:8080/home
+
+(Metamask is only when the menu Metamask is clicked)
+
 ## There are two contracts: MainBet and GenericBet
 MainBet is deployed with the parameters to generate a sequence of bets. The parameters are given once and all the generated bets implement the same parameters of their MainBet. To have a sequence of bets with different parameter it is sufficient deploy another MainBet contract with different parameters. From a MainBet, a bet can be deployed only when the former bet of the same sequence is finished with a winner, with the function createBet The GenericBet contract store the parameters of the bet, initialize all the variable for bet and manage the bet of the players and the end of the bet. It the basic functions are: buyNumber, combineNumbers and endBet (internal)
 
