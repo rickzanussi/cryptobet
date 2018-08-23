@@ -1,14 +1,14 @@
 
 
-# Reentrancy
+# Security explanations
 
-## 1) buynumber function of Generic bet contract
+## 1) Reentrancy: buyNumber function of Generic bet contract
 the add to betPrize is made by an internal value not by the value send by the player
 
 the transfer of the value exceeding the standard value for buying a new number is given back to the sender. The function buyNumber have to be called with a value. so in case of reentrancy the money considered to be given back is the value in the parameters of the new buyNumber function called
 
 
-## 2) end bet function of Generic bet contract
+## 2) Reentrancy: endBet function of Generic bet contract
 
 In case of reentrancy, the value of betprize is already set to zero before the possible call to another function
 
@@ -32,3 +32,7 @@ A new bet cannot be made until the actula bet is in the state "ended=false". But
 
 During buyNumber function somebody can stuck the contract make the transfer of the exceeding vlaur of the bet fails.
 This is noticed: further version could not implement this function for security reason.
+
+## 6) Integer Overflow and Underflow
+
+All the computation with value passed from outside are made using SafeMath functions
