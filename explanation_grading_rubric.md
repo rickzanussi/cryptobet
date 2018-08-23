@@ -79,7 +79,7 @@
 
 ## Stretch Goals for bonus points
   ### Project uses IPFS
-  NO
+  In the webpage I started to use IPFS to log all the page (and more the called functions, with account. Actually is only on the 'betStatus' page to test but ready to be deplyed in the other pages. All the data are stored in a path with the address of the GenericContract as main directory and the hash of the context + .txt as file
   ### Project uses uPort
   NO
   ### Project uses the Ethereum Name Service
