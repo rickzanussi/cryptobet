@@ -44,3 +44,9 @@ There are 5 test The contract MainBet.sol is deployed. The contract contains the
 There a web application to check some functionalities of the contracts. The web application allow to buy numbers and combine numbers. 
 The web application is made completely in Node (i dont have a deep knowledge of javascript) for this reason I couldn’t use neither metamask neither uport 
 ### **The web application rely on contracts deployed in Rinkeby]**
+
+##Rubric points and explanations
+
+https://github.com/rickzanussi/cryptobet/blob/master/explanation_grading_rubric.md
+
+
