@@ -2,6 +2,8 @@
 
 ## User Interface Requirements
   ### Run app on a dev server locally for testing/grading (connecting to Rinkeby if required)
+  Application is made with Truffle. The strcuture of library in GitHub reflect the structure of Truffle. It was programmed with Visual Code on Ubuntu 16.04. On my test environment, it answer to COMPILE, MIGRATE and TEST commands. It is mandatory launch ganache-cli before 
+  
   ### Should be able to visit a URL and interact with the app (can be localhost)
 
   ### The applications should have the following features:
