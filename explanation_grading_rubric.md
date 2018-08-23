@@ -14,7 +14,7 @@
   
   This is the Cloud9 URL to see the application: 
   
-  http://18.223.68.224:8080//home
+  http://18.223.68.224:8080/home
   
   Please use Chrome or report to me if it is not working.I extensevily tested but sometime in the smae machine with Chrome is possible to enter but with Explorer not
   The first page take some seconds to load becuase have to laod all the nuber makinig 100 calls
