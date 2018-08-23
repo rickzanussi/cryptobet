@@ -21,18 +21,25 @@
   The are implemented also the buyNumber function and the combine number fucnction (remeber that the two number of the combineNumber function have to be owned by the sender of the function)
   There is a 4 link to betStatus function (not to be deployed in a productiono environment) that show and allow to change the default account (and privatekey!!!!!!!), and he address of the two contracts
 
-  ### The applications should have the following features:
-    #### Display the current account
-    #### Sign transactions using metamask / uPort
-    
-    Due to the pure Node implementationo of the main application, it was not possbile include the MeatMaks  signing.
+  ### The applications should have the following features
+  
+  Display the current account
+         Yes under betStattus
+     Sign transactions using metamask.
+     
+    Due to the pure Node implementation of the main application, it was not possbile include the MeatMaks  signing.
     So I made another page in HTML/Javascript to show the integration with metamask of oone transaction: buyNumber
     the URL is
     
-    https://vfs.cloud9.us-east-2.amazonaws.com/vfs/a775e54628a94a24a83267e1e27e5b3a/preview/cb2web/web3api.html?_c9_id=livepreview1&_c9_host=https://us-east-2.console.aws.amazon.com
+    http://18.223.68.224:8080/web3api 
+ 
+    (can be reached also from the /home page under the menu item "Metamask")
     
     again please tell if it doesnt work. Usually do it (and I will check it) but some random time not
-    #### Reflect updates to to the contract state
+     Reflect updates to to the contract state
+     yes, if you buy a number or combien two numbers, and go home again (some seconds to wait), you will see that a new number is bought
+  
+     
 
 ## Testing
   ### 5 tests (Javascript or Solidity or both) with explanations for each smart contract written (where appropriate)
