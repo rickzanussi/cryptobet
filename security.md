@@ -10,6 +10,25 @@ the transfer of the value exceeding the standard value for buying a new number i
 
 ## 2) end bet function of Generic bet contract
 
-in case of reentrancy, the value of betprize is already set to zero before the possible call to another function
+In case of reentrancy, the value of betprize is already set to zero before the possible call to another function
 
 *Checks-Effects-Interactions Pattern* is used: The transfer function is called as late as possible
+
+## 3) Gas Limit  and Loops
+
+Huge effort was put in making as few as possible loops. In fact the only loop is in the constructor of the contract genericBet. 
+(That also allow not to penalize player lowering the gas cost of the bets)
+
+## 3) tx.origin
+is never used
+
+## 4) Restrict the Amount of Ether
+
+The contract add Ether not relying on the value from the call of the fucntion but from the value (public) necesary to buy a number, stored as internal variable
+
+## 5) Stucked contract
+
+A new bet cannot be made until the actula bet is in the state "ended=false". But the ended=true (and pause=true) is the first thing executed when a bet is ended.
+
+During buyNumber function somebody can stuck the contract make the transfer of the exceeding vlaur of the bet fails.
+This is noticed: further version could not implement this function for security reason.
