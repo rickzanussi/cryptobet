@@ -31,7 +31,7 @@ Buy number nad combine number funtions dont have loop to check is a number is fr
 
 ## Public fields
 
-All the fileds fields are public to allow debugging. In a future more safe version, care will be taken to hide not necesary public fields
+All the fields are public to allow debugging. In a future more safe version, care will be taken to hide not necesary public fields
 
 ## EndBet function
 
