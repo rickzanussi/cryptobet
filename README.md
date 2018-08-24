@@ -15,7 +15,7 @@ https://github.com/rickzanussi/cryptobet/blob/master/avoiding_common_attacks.md
 ### Rinkeby addresses
 https://github.com/rickzanussi/cryptobet/blob/master/deployed_addresses.txt
 
-### URL application
+### URL application (give some seconds to display)
 
 http://18.223.68.224:8080/home
 
