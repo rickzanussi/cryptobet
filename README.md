@@ -2,7 +2,7 @@
 
 
 PLEASE when you download the project from github, in your ubuntu change the cryptobet-master directoyr in cryptobet
-(For some reason, truffle dont recuild files with links to the neww directory. sure my few knowledge of github)
+(For some reason, truffle dont rebuild files with links to the new directory. sure my few knowledge of github)
 
 ## Useful links
 
