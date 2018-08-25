@@ -1,7 +1,7 @@
 # Cryptobet is an application to generate, manage and play bets
 
 
-PLEASE when you download the project from github, in your ubuntu change the cryptobet-master directoyr in CRYPTOBET
+PLEASE when you download the project from github, in your ubuntu change the cryptobet-master directoyr in cryptobet
 (For some reason, truffle dont recuild files with links to the neww directory. sure my few knowledge of github)
 
 ## Useful links
